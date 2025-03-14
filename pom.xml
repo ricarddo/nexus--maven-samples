@@ -54,11 +54,11 @@
 	<distributionManagement>
     <snapshotRepository>
       <id>nexusdeploymentrepo</id>
-      <url>http://localhost:8081/repository/overlabs-maven-snapshots/</url>
+      <url>http://nexus:8081/repository/overlabs-maven-snapshots/</url>
     </snapshotRepository>
 	<repository>
 	  <id>nexusdeploymentrepo</id>
-      <url>http://localhost:8081/repository/overlabs-maven-releases/</url>
+      <url>http://nexus:8081/repository/overlabs-maven-releases/</url>
     </repository>
   
   </distributionManagement>
