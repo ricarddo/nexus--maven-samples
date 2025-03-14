@@ -50,7 +50,16 @@
    			</plugin-->
 		</plugins>
 	</build>
-
+	<distributionManagement>
+    		<snapshotRepository>
+      			<id>nexusdeploymentrepo</id>
+      			<url>http://nexus:8081/repository/overlabs-maven-snapshots/</url>
+    		</snapshotRepository>
+		<repository>
+	  		<id>nexusdeploymentrepo</id>
+      			<url>http://nexus:8081/repository/overlabs-maven-releases/</url>
+   		</repository>
+  	</distributionManagement>
 
 
 </project>
